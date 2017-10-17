@@ -5,5 +5,5 @@ RUN mkdir /app
 WORKDIR /app 
 COPY hello.c /app 
 RUN mkdir bin 
-RUN gcc -Wall hello.c -o bin/hello 
+RUN gcc -Wall -Werror hello.c -o bin/hello 
 CMD /app/bin/hello
