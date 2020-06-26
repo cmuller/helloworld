@@ -10,3 +10,4 @@ Contents
 Testing remote CI
 -----------------
 
+This is a test.
